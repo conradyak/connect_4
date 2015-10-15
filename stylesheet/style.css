@@ -1,0 +1,36 @@
+body {
+  background-color: green;
+  text-align: center;
+}
+
+section{
+  width: 65%;
+  height: 500px;
+  background: yellow;
+  margin: auto;
+  padding: 10px;
+}
+.row {
+  width: 64px;
+  float: left;
+  height: 490px;
+  margin: 10px;
+
+}
+
+.chip{
+  width: 60px;
+  height: 70px;
+  margin: 2px;
+  border-radius: 5px;
+  background: black;
+  border: 3px solid white;
+  float: left;
+  line-height: 70px;
+  color: gray;
+
+}
+
+.chip:hover {
+  border: 3px solid white;
+}
