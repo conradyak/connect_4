@@ -59,8 +59,6 @@ section{
   height: 500px;
   margin: auto;
   padding: 10px;
-  z-index: 2;
-  opacity: 9;
 }
 .column {
   width: 112px;
