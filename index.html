@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8">
+
+      <title>Four Square</title>
+
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <!--Font link for Butcherman  -->
+    <link href='https://fonts.googleapis.com/css?family=Butcherman' rel='stylesheet' type='text/css'>
+
+
+  </head>
+  <body>
+
+      <!-- <Main title to be center top> -->
+
+          <h1>Connect Four</h1>
+
+
+      <!-- Player 1 ! card to be displayed left side full lenght with picture and text inside -->
+            <div id="player1">
+
+              <h3 id="p1">Player 1</h3>
+              <!-- Player picture left side -->
+                <div id="p1pic">
+                  <a href="http://static.tumblr.com/qpjlklu/zsfm926cj/ghost_animated.gif">
+                    <img src="http://static.tumblr.com/qpjlklu/zsfm926cj/ghost_animated.gif" alt="Ghost">
+                  </a>
+                </div>
+
+            </div>
+      <!-- Player 2 card to be displayed right side full lenght with picture and text inside -->
+            <div id="player2">
+
+              <h3 id="p2">Player 2</h3>
+              <!-- Player picture right side -->
+                <div id="p2pic">
+                  <a href="http://vignette2.wikia.nocookie.net/trollpasta/images/8/8a/Dancing_skeleton-1-.gif/revision/latest?cb=20150907140845">
+                    <img src="http://vignette2.wikia.nocookie.net/trollpasta/images/8/8a/Dancing_skeleton-1-.gif/revision/latest?cb=20150907140845" alt="Skeleton"></a>
+                </div>
+            </div>
+
+
+                <!-- GameBoardRow 1 -->
+          <section>
+              <div class="column" id="1">
+                <div class="chip" id="a1"></div>
+                <div class="chip" id="a2"></div>
+                <div class="chip" id="a3"></div>
+                <div class="chip" id="a4"></div>
+                <div class="chip" id="a5"></div>
+                <div class="chip" id="a6"></div>
+              </div>
+                <!--  GameBoardRow 2 -->
+              <div class="column" id="2">
+                <div class="chip" id="b1"></div>
+                <div class="chip" id="b2"></div>
+                <div class="chip" id="b3"></div>
+                <div class="chip" id="b4"></div>
+                <div class="chip" id="b5"></div>
+                <div class="chip" id="b6"></div>
+              </div>
+                <!--  GameBoardRow 3 -->
+              <div class="column" id="3">
+                <div class="chip" id="c1"></div>
+                <div class="chip" id="c2"></div>
+                <div class="chip" id="c3"></div>
+                <div class="chip" id="c4"></div>
+                <div class="chip" id="c5"></div>
+                <div class="chip" id="c6"></div>
+              </div>
+                  <!--  GameBoardRow 4 -->
+              <div class="column" id="4">
+                <div class="chip" id="d1"></div>
+                <div class="chip" id="d2"></div>
+                <div class="chip" id="d3"></div>
+                <div class="chip" id="d4"></div>
+                <div class="chip" id="d5"></div>
+                <div class="chip" id="d6"></div>
+              </div>
+                  <!--  GameBoardRow 5 -->
+              <div class="column" id="5">
+                <div class="chip" id="e1"></div>
+                <div class="chip" id="e2"></div>
+                <div class="chip" id="e3"></div>
+                <div class="chip" id="e4"></div>
+                <div class="chip" id="e5"></div>
+                <div class="chip" id="e6"></div>
+              </div>
+                  <!--  GameBoardRow 6 -->
+              <div class="column" id="6">
+                <div class="chip" id="f1"></div>
+                <div class="chip" id="f2"></div>
+                <div class="chip" id="f3"></div>
+                <div class="chip" id="f4"></div>
+                <div class="chip" id="f5"></div>
+                <div class="chip" id="f6"></div>
+              </div>
+                  <!-- GameBoardRow 7  -->
+              <div class="column" id="7">
+                <div class="chip" id="g1"></div>
+                <div class="chip" id="g2"></div>
+                <div class="chip" id="g3"></div>
+                <div class="chip" id="g4"></div>
+                <div class="chip" id="g5"></div>
+                <div class="chip" id="g6"></div>
+              </div>
+         </section>
+
+
+            <!-- Scoreboard to be displayer below the the game board -->
+          <div class="scoreboard">
+
+              <div id="playerscore1">
+
+                <h4 id="score1">Player One Score</h4>
+                    <!-- to display score of player1 -->
+                <div id="sb1"></div>
+
+              </div>
+
+            <!--A start button to be below scoreboard  -->
+                    <button type="START">START</button>
+
+              <div id="playerscore2">
+
+                <h4 id="score2">Player Two Score</h4>
+                    <!-- to display score of player2 -->
+                <div id="sb2"></div>
+              </div>
+
+          </div>
+
+
+        <!--javascript page and jquery library links  -->
+    <script src='http://code.jquery.com/jquery-1.11.3.js'></script>
+    <script type="text/javascript" src="connect4.jss"></script>
+  </body>
+
+</html>
